@@ -67,7 +67,8 @@ int main(){
     }
 
     //menu
-    while(1){
+    int choice;
+    while(choice != 8){
         printf("\n 1.AND GATE");
         printf("\n 2.OR GATE");
         printf("\n 3.NOT GATE");
@@ -77,7 +78,7 @@ int main(){
         printf("\n 7.XNOR GATE");
         printf("\n 8.EXIT");
 
-        int choice;
+        
         printf("enter choice:\n");
         scanf("%d",&choice);
 
@@ -114,7 +115,7 @@ int main(){
                  break;
             case 8 :
                  printf("exiting...\n");
-                 return 0;
+                 
                  break ;  
             default:
                 printf("invalid choice");              
@@ -123,6 +124,9 @@ int main(){
 
 
     }
+    printf("\nProgram finished.\n");
+return 0;
+
 
     
 
